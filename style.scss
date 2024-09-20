@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color:   #FD9317;
+    display: flex;
+    //ajusta no eixo x - largura
+    justify-content: space-around;
+    //alinhar os itens no eixo y - altura
+    align-items: center;
+
+    img{
+        width: 12%;
+    }
+
+    ul{
+        display: flex;
+        list-style: none; //retirar o estilo da lista
+        justify-content: space-around;
+        width: 60vw;
+    }
+}
